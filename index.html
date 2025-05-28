@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raízes Conectadas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container py-4">
+        <div class="text-center mb-4">
+            <img src="img/graos.jpg" alt="Soja sendo colhida" class="img-fluid rounded mb-3">
+            <h1 class="fw-bold"><span class="me-2">🌱</span>Raízes Conectadas</h1>
+            <p class="text-muted">Do campo à cidade: conheça o caminho dos alimentos e quem está por trás de tudo.</p>
+        </div>
+
+        
+        <section>
+            <h2 class="section-title">🏡 Do Campo à Cidade</h2>
+            <p>Você já parou pra pensar como o pão chega até a sua mesa? Tudo começa lá no campo! 🌾</p>
+            <div class="row">
+                <div class="col-md-3 card-etapa">
+                    <h3 class="fw-bold">Produção Rural</h3>
+                    <p>Onde tudo começa – na fazenda!</p>
+                </div>
+                <div class="col-md-3 card-etapa">
+                    <h3 class="fw-bold">Transporte</h3>
+                    <p>Caminhões e estradas levam os produtos até as cidades.</p>
+                </div>
+                <div class="col-md-3 card-etapa">
+                    <h3 class="fw-bold">Indústria</h3>
+                    <p>Onde os alimentos são processados e embalados.</p>
+                </div>
+                <div class="col-md-3 card-etapa">
+                    <h3 class="fw-bold">Distribuição</h3>
+                    <p>Mercados e feiras recebem os produtos.</p>
+                </div>
+            </div>
+        </section>
+
+       
+         <section>
+            <h2 class="section-title">👩🏽‍🌾 Conheça o Produtor</h2>
+            <div class="d-flex flex-wrap justify-content-between">
+                <div class="flip-card" tabindex="0" role="button" aria-label="Informações sobre Dona Maria">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img/donamaria.avif" alt="Dona Maria sorrindo" />
+                            <h5>Dona Maria, 62 anos</h5>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Planta cenoura e milho há mais de 40 anos no interior da Bahia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card" tabindex="0" role="button" aria-label="Informações sobre Seu João">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img/joao.jpg" alt="Seu João com as vacas" />
+                            <h5>Seu João, 38 anos</h5>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Produtor de leite em Santa Catarina. Entrega leite fresquinho todo dia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card" tabindex="0" role="button" aria-label="Informações sobre Júlia">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img/julia.avif" alt="Júlia cuidando das hortaliças" />
+                            <h5>Júlia, 25 anos</h5>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Jovem produtora de hortaliças orgânicas no Paraná.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">🌎 Sustentabilidade e Futuro</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">O agro pode ser verde!</h5>
+                    <p>Veja como práticas sustentáveis estão mudando o campo:</p>
+                    <ul>
+                        <li>Uso consciente da água</li>
+                        <li>Plantio direto para conservar o solo</li>
+                        <li>Energia solar em propriedades rurais</li>
+                        <li>Redução do desperdício alimentar</li>
+                        <li>Práticas agroecológicas</li>
+                    </ul>
+                    <p>Recursos para você aprender mais:</p>
+        <a href="https://www.gov.br/agricultura/pt-br/assuntos/sustentabilidade" target="_blank" rel="noopener noreferrer" class="btn btn-success mb-2" title="Acesse informações sobre Sustentabilidade no Agro">Sustentabilidade no Agro</a>
+        <a href="https://www.embrapa.br" target="_blank" rel="noopener noreferrer" class="btn btn-success mb-2" title="Visite o site da Embrapa">Embrapa</a>
+        <a href="https://www.youtube.com/@AgriculturaAaZ" target="_blank" rel="noopener noreferrer" class="btn btn-success mb-2" title="Assista ao canal de vídeos sobre agricultura">Canal de vídeos agro</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">🎓 O Papel do Estudante</h2>
+            <div class="custom-card">
+                <h5 class="fw-bold">Como participar?</h5>
+                <ul>
+                    <li>Evitar desperdício de comida</li>
+                    <li>Dar preferência a alimentos da sua região</li>
+                    <li>Reutilizar embalagens e separar o lixo</li>
+                    <li>Conhecer quem planta o que você come</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section>
+            <h2 class="section-title">💬 Comentários</h2>
+            <form id="comentario-form">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Comentário</label>
+                    <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <div id="comentarios" class="mt-4"></div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="text-center mt-5 mb-3">
+            <p>© 2025 Raízes Conectadas. Feito pela aluna Letícia Brasil.</p>
+        </footer>
+    </div>
+
+    <script>
+        const form = document.getElementById('comentario-form');
+        const comentarios = document.getElementById('comentarios');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const nome = document.getElementById('nome').value;
+            const mensagem = document.getElementById('mensagem').value;
+
+            const novoComentario = document.createElement('div');
+            novoComentario.classList.add('border', 'p-2', 'mb-2');
+            novoComentario.innerHTML = `<strong>${nome}</strong><p>${mensagem}</p>`;
+
+            comentarios.appendChild(novoComentario);
+            form.reset();
+        });
+    </script>
+</body>
+</html>
