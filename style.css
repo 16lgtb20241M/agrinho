@@ -1,0 +1,125 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e4f8e4; 
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: transparent !important; 
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #2f5d27; 
+}
+
+.card-etapa {
+    background-color: white;
+    border: 1px solid #a8d5a2;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    color: #2f5d27; 
+}
+
+.custom-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 220px; 
+    height: 280px; 
+    perspective: 1000px;
+    margin-bottom: 1.5rem;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s; 
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.flip-card-front {
+    background-color: #a6d785; 
+    color: #1d3c17; 
+}
+
+.flip-card-front img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%; 
+    margin-bottom: 0.75rem;
+    border: 3px solid #2f5d27; 
+}
+
+.flip-card-front h5 {
+    margin: 0; 
+    font-weight: 600;
+    text-align: center;
+}
+
+.flip-card-back {
+    background-color: #2f5d27; 
+    color: white;
+    transform: rotateY(180deg);
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+a.btn-success {
+    background-color: #3a7d44;
+    border-color: #3a7d44;
+}
+
+a.btn-success:hover,
+a.btn-success:focus {
+    background-color: #2f5d27;
+    border-color: #2f5d27;
+}
+
+
+footer p {
+    color: #2f5d27;
+    font-weight: 500;
+}
+
